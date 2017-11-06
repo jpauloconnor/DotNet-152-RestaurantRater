@@ -6,12 +6,16 @@ namespace RestaurantRater.Controllers
 {
     public class RestaurantController : Controller
     {
-        private RestaurantDBContext db = new RestaurantDBContext();
 
         // GET: Restaurants
         public ActionResult Index()
         {
-            return View(db.Restaurants.ToList());
+            return View();
+        }
+
+        public ActionResult Spaghetti()
+        {
+            return View();
         }
     }
 }

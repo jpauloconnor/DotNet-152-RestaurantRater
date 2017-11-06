@@ -10,6 +10,7 @@ namespace RestaurantRater.Controllers
     {
         public ActionResult Index()
         {
+            //Query the db
             return View();
         }
 
